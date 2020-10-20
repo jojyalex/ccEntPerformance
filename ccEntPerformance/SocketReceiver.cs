@@ -44,10 +44,6 @@ namespace ccEntPerformance
                 //Console.WriteLine($"Transaction ID: {message.TransactionId} - User:{user} : Error Message {message.Key}, {message.Value} " + $"requested at {message.RequestedDate}");
             });
 
-            //connection.On<string, string>("fundingGuideTimingUpdated", (user, message) =>
-            //{
-            //    Console.WriteLine($"Funding Guide Timing Updated by {user} at {message}");
-            //});
 
             try
             {
